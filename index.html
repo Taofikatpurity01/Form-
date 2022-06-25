@@ -2,161 +2,60 @@
 <html lang="en">
 
 <head>
-    
+
     <meta charset="UTF-8">
-    
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="style.css">
-     <title>Document</title>
+    <title>Document</title>
     <style>
-        .submit {
-            background-color: green;
-        }
-
-        a {
-            color: red;
-        }
-
-        body {
-            padding: 0;
-            margin: 0;
-            box-sizing: inherit;
-            background-color: hsl(0, 100%, 74%);
-            font-size: 16px;
-            border: none;
-            font-family: "Poppins", sans-serif;
-        }
-
-        html {
-            box-sizing: border-box;
-        }
-
-        .container {
-            width: 65%;
-            margin: 100px auto;
-            display: flex;
-        }
-
-        .container__text {
-            margin-right: 30px;
-            color: #fff;
-
-            align-self: center;
-        }
-
-        .heading {
-            font-size: 32px;
-
-            margin-bottom: 30px;
-            font-weight: 700;
-        }
-
-        .button {
-            background-color: hsl(248, 32%, 49%);
-            width: 100%;
-            padding: 15px;
-            border-radius: 5px;
-            color: #fff;
-            display: inline-block;
-            outline: none;
-            /* inline: block; */
-            margin-bottom: 10px;
-            box-shadow: 0 6px 0 rgba(0, 0, 0, 0.15);
-        }
-
-        .form {
-            width: 23vw;
-            background-color: #fff;
-            height: 350px;
-            padding: 30px;
-            box-shadow: 0.1px 0.2rem 10px rgba(0, 0, 0, 0.15);
-            border-radius: 3px;
-        }
-
-        form {
-            width: 100%;
-        }
-
-        input {
-            border-radius: 4px;
-            border: 1px solid rgba(0, 0, 0, 0.15);
-        }
-
-        .name {
-            display: inline-block;
-            width: 92%;
-            margin-bottom: 10px;
-            padding: 10px;
-        }
-
-        .name:hover,
-        .name:active {
-            transform: translateY(1px);
-        }
-
-        .names {
-            display: inline-block;
-            width: 100%;
-            margin-bottom: 10px;
-            padding: 10px;
-            outline: none;
-            border: none;
-            font-size: 18px;
-            font-weight: 500;
-            text-transform: uppercase;
-            background-color: hsl(154, 59%, 51%);
-            color: #fff;
-            box-shadow: .05px .5px 3px rgba(0, 0, 0, .91);
-        }
-
-        .link {
-            display: inline-block;
-            text-decoration: none;
-            color: hsl(0, 100%, 74%);
-        }
     </style>
 </head>
 
 <body>
-    
+
     <!-- <main>   -->
-   
-    <div class="container">
-        <div class="container__text">
-            <h1 class="heading">Learn to code by watching others</h1>
-            <p class="paragraph">See how experienced developers solve problems in real-time. Watching scripted tutorialsis great, but understanding how developers think is invaluable.</p>
+    <div class="section">
+
+        <img src="bg-intro-desktop.png" alt="">
+    
+        <div class="container">
+            <div class="container__text">
+                <h1 class="heading">Learn to code by watching others</h1>
+                <p class="paragraph">See how experienced developers solve problems in real-time. Watching scripted
+                    tutorialsis great, but understanding how developers think is invaluable.</p>
             </div>
-
-        <div class="container__form">
-             <button class="button">
-                Try it free for 7days then $20/month thereafter
-                 </button>
-
-             <div class="form">
-                <form action="#">
-
-                     <input type="text" id="FirstName" placeholder="First Name" class="name">
-                    
-                     <input type="text" id="lastName" placeholder="Last Name" class="name"> <input
-                        type="email" id="Email" placeholder="Email Address" class="name">
-                    
-                     <input type="password" id="passWord" placeholder="Password" class="name"> <br>
-                    
-                     <input type="submit" value="Claim your free trial" class="names">
-
-                     <p class="paragraph">By clicking the button, you are agreeing to our <a href="#"
-                            class="link">Terms and Conditions</a></p>
+    
+            <div class="container__form">
+                <button class="button">
+                    Try it free for 7days then $20/month thereafter
+                </button>
+    
+                <div class="form">
+                    <form action="#">
+    
+                        <input type="text" id="FirstName" placeholder="First Name" class="name">
+    
+                        <input type="text" id="lastName" placeholder="Last Name" class="name"> <input type="email"
+                            id="Email" placeholder="Email Address" class="name">
+    
+                        <input type="password" id="passWord" placeholder="Password" class="name"> <br>
+    
+                        <input type="submit" value="Claim your free trial" class="names">
+    
+                        <p class="paragraph">By clicking the button, you are agreeing to our <a href="#" class="link">Terms and Conditions</a></p>
                     </form>
-
-                 </div>
-
+    
+                </div>
+    
             </div>
-         </div>
-
-    <!-- </main> -->
+        </div>
+    
+        <!-- </main> -->
+    </div>
 </body>
 
 </html>
