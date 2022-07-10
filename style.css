@@ -93,7 +93,7 @@ input::placeholder {
 
 .name:hover,
 .name:active {
-    transform: translateY(1px);
+    transform: translate(1px);
 }
 
 .names {
