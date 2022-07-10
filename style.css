@@ -122,4 +122,4 @@ input::placeholder {
     color: hsl(0, 100%, 74%);
     /* display: inline-block; */
 }
-@media{max-width :100%;}
+@media all and(max-width :100%)
