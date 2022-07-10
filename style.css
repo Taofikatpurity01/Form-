@@ -3,7 +3,6 @@ a {
     padding: 0;
     box-sizing: border-box;
 }
-@media(max-width :100%)
 body {
     background-color: hsl(0, 100%, 74%);
     font-family: "Poppins", sans-serif;
@@ -123,3 +122,4 @@ input::placeholder {
     /* display: inline-block; */
 }
 
+@media(max-width :100%)
