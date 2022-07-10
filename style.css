@@ -3,13 +3,13 @@ a {
     padding: 0;
     box-sizing: border-box;
 }
-
+@media(max-width :100%) {
 body {
     background-color: hsl(0, 100%, 74%);
     font-family: "Poppins", sans-serif;
     position: fixed;
 }
-
+} 
 .section img {
     position: absolute;
 }
@@ -122,4 +122,4 @@ input::placeholder {
     color: hsl(0, 100%, 74%);
     /* display: inline-block; */
 }
-@media all and(max-width :100%)
+
