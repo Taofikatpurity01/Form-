@@ -127,7 +127,7 @@ input::placeholder {
 display:flex;
 flex-direction:column;
 align-content:center;
-width:100%;
+width:90%;
 position:relative;
 }
 .container__text{text-align:center;
