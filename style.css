@@ -124,5 +124,6 @@ input::placeholder {
 /* MEDIA QUERY BEGINS FOR MOBILE (375px) SCREEN SIZE*/{
  .container{
 display:flex;
-flex-direction:column;}
+flex-direction:column;
+align-content:center;}
 } 
