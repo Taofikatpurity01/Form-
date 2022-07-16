@@ -129,3 +129,10 @@ flex-direction:column;
 align-content:center;
 }
 } 
+/* MEDIA QUERY BEGINS FOR DESKTOP (1440px) SCREEN SIZE*/
+@media (max-width:1440px) {
+.container{
+display:flex;
+justify-content:space-between;
+}
+}
