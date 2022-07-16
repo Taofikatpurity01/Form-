@@ -126,5 +126,6 @@ input::placeholder {
 .container{
 display:flex;
 flex-direction:column;
-align-content:center;}
+align-content:center;
+}
 } 
