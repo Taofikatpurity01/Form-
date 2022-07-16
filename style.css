@@ -122,7 +122,7 @@ input::placeholder {
 }
 
 /* MEDIA QUERY BEGINS FOR MOBILE (375px) SCREEN SIZE*/
-@media (max-width:375px) {
+@media only screen and (max-width:600px) {
 .container{
 display:flex;
 flex-direction:column;
@@ -130,7 +130,7 @@ align-content:center;
 }
 } 
 /* MEDIA QUERY BEGINS FOR DESKTOP (1440px) SCREEN SIZE*/
-@media (max-width:1440px) {
+@media only screen and (max-width:1440px) {
 .container{
 display:flex;
 justify-content:space-between;
