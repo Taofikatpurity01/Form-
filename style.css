@@ -128,6 +128,8 @@ display:flex;
 flex-direction:column;
 align-content:center;
 }
+.container__text{text-align:center
+}
 } 
 /* MEDIA QUERY BEGINS FOR DESKTOP (1440px) SCREEN SIZE*/
 @media only screen and (max-width:1440px) {
