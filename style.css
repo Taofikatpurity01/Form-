@@ -128,7 +128,8 @@ display:flex;
 flex-direction:column;
 align-content:center;
 }
-.container__text{text-align:center
+h1{text-align:center;} 
+.container__text{text-align:center;
 }
 } 
 /* MEDIA QUERY BEGINS FOR DESKTOP (1440px) SCREEN SIZE*/
